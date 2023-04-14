@@ -1,0 +1,50 @@
+{
+	"name": "@nodecraft/stylelint-config",
+	"version": "1.0.0",
+	"description": "Nodecraft base Stylelint config",
+	"keywords": [
+		"stylelint",
+		"config",
+		"javascript",
+		"nodecraft"
+	],
+	"homepage": "https://github.com/nodecraft/stylelint-config",
+	"bugs": {
+		"url": "https://github.com/nodecraft/stylelint-config/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/nodecraft/stylelint-config"
+	},
+	"license": "MIT",
+	"author": "Nodecraft Inc.",
+	"main": "index.js",
+	"files": [
+		"index.js"
+	],
+	"scripts": {
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix",
+		"test": "vitest run"
+	},
+	"devDependencies": {
+		"@nodecraft/eslint-config": "^24.0.0",
+		"eslint": "^8.38.0",
+		"eslint-plugin-json": "^3.1.0",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-unicorn": "^46.0.0",
+		"eslint-plugin-vitest": "^0.1.4",
+		"stylelint": "^15.4.0",
+		"stylelint-config-standard": "^32.0.0",
+		"stylelint-stylistic": "^0.4.0",
+		"vitest": "^0.30.1"
+	},
+	"peerDependencies": {
+		"stylelint": "^15.4.0",
+		"stylelint-config-standard": "^32.0.0",
+		"stylelint-stylistic": "^0.4.0"
+	},
+	"engines": {
+		"node": ">= 16"
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"extends": [
+		"plugin:vitest/recommended"
+	],
+	"parserOptions": {
+		"sourceType": "module"
+	},
+	"plugins": ["vitest"],
+	"rules": {
+		"node/no-unsupported-features/es-syntax": "off"
+	}
+}
