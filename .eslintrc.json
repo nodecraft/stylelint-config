@@ -2,5 +2,8 @@
 	"root": true,
 	"extends": [
 		"@nodecraft/eslint-config"
-	]
+	],
+	"parserOptions": {
+		"sourceType": "module"
+	}
 }

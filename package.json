@@ -1,6 +1,6 @@
 {
 	"name": "@nodecraft/stylelint-config",
-	"version": "1.0.0",
+	"version": "2.0.0",
 	"description": "Nodecraft base Stylelint config",
 	"keywords": [
 		"stylelint",
@@ -18,6 +18,7 @@
 	},
 	"license": "MIT",
 	"author": "Nodecraft Inc.",
+	"type": "module",
 	"main": "index.js",
 	"files": [
 		"index.js"
@@ -28,23 +29,24 @@
 		"test": "vitest run"
 	},
 	"devDependencies": {
-		"@nodecraft/eslint-config": "^24.0.0",
-		"eslint": "^8.38.0",
+		"@nodecraft/eslint-config": "^31.0.1",
+		"@types/node": "^20.10.4",
+		"eslint": "^8.56.0",
 		"eslint-plugin-json": "^3.1.0",
 		"eslint-plugin-node": "^11.1.0",
-		"eslint-plugin-unicorn": "^46.0.0",
-		"eslint-plugin-vitest": "^0.1.4",
-		"stylelint": "^15.4.0",
-		"stylelint-config-standard": "^32.0.0",
-		"stylelint-stylistic": "^0.4.0",
-		"vitest": "^0.30.1"
+		"eslint-plugin-unicorn": "^49.0.0",
+		"eslint-plugin-vitest": "^0.3.18",
+		"stylelint": "^16.0.2",
+		"stylelint-codeguide": "^1.0.2",
+		"stylelint-config-standard": "^35.0.0",
+		"vitest": "^1.0.4"
 	},
 	"peerDependencies": {
-		"stylelint": "^15.4.0",
-		"stylelint-config-standard": "^32.0.0",
-		"stylelint-stylistic": "^0.4.0"
+		"stylelint": "^16.0.2",
+		"stylelint-codeguide": "^1.0.2",
+		"stylelint-config-standard": "^35.0.0"
 	},
 	"engines": {
-		"node": ">= 16"
+		"node": ">= 18"
 	}
 }
