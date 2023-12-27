@@ -1,8 +1,10 @@
 {
 	"extends": [
+		"@nodecraft/eslint-config/typescript",
 		"plugin:vitest/recommended"
 	],
 	"parserOptions": {
+		"parser": "@typescript-eslint/parser",
 		"sourceType": "module"
 	},
 	"plugins": ["vitest"],

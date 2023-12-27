@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+
 import stylelint from 'stylelint';
 import {
 	beforeEach,
@@ -41,9 +42,9 @@ describe('flags warnings with invalid css', () => {
 		});
 	});
 
-	// it('did error', () => {
-	// 	expect(result.errored).toBe(true);
-	// });
+	it('did error', () => {
+		expect(result.errored).toBe(true);
+	});
 
 	it('flagged warnings', () => {
 		expect(result.results[0].warnings).toHaveLength(2);
@@ -51,14 +52,14 @@ describe('flags warnings with invalid css', () => {
 
 	it('correct rule flagged', () => {
 		expect(result.results[0].warnings.map(warning => warning.rule)).toEqual([
-			'block-opening-brace-space-before',
-			'indentation',
+			'@stylistic/block-opening-brace-space-before',
+			'@stylistic/indentation',
 		]);
 	});
 
-	// it('correct severity flagged', () => {
-	// 	expect(result.results[0].warnings[0].severity).toBe('error');
-	// });
+	it('correct severity flagged', () => {
+		expect(result.results[0].warnings[0].severity).toBe('error');
+	});
 
 	it('correct line number', () => {
 		expect(result.results[0].warnings[0].line).toBe(1);

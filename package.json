@@ -1,6 +1,6 @@
 {
 	"name": "@nodecraft/stylelint-config",
-	"version": "2.0.0",
+	"version": "3.0.0",
 	"description": "Nodecraft base Stylelint config",
 	"keywords": [
 		"stylelint",
@@ -30,20 +30,22 @@
 	},
 	"devDependencies": {
 		"@nodecraft/eslint-config": "^31.0.1",
-		"@types/node": "^20.10.4",
+		"@stylistic/stylelint-plugin": "^2.0.0",
+		"@types/node": "^20.10.5",
+		"@typescript-eslint/eslint-plugin": "^6.16.0",
+		"@typescript-eslint/parser": "^6.16.0",
 		"eslint": "^8.56.0",
 		"eslint-plugin-json": "^3.1.0",
 		"eslint-plugin-node": "^11.1.0",
 		"eslint-plugin-unicorn": "^49.0.0",
-		"eslint-plugin-vitest": "^0.3.18",
-		"stylelint": "^16.0.2",
-		"stylelint-codeguide": "^1.0.2",
-		"stylelint-config-standard": "^35.0.0",
-		"vitest": "^1.0.4"
+		"eslint-plugin-vitest": "^0.3.20",
+		"stylelint": "^16.1.0",
+		"stylelint-config-standard": "^36.0.0",
+		"vitest": "^1.1.0"
 	},
 	"peerDependencies": {
+		"@stylistic/stylelint-plugin": "^2.0.0",
 		"stylelint": "^16.0.2",
-		"stylelint-codeguide": "^1.0.2",
 		"stylelint-config-standard": "^35.0.0"
 	},
 	"engines": {
