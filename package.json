@@ -14,7 +14,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/nodecraft/stylelint-config"
+		"url": "git+https://github.com/nodecraft/stylelint-config.git"
 	},
 	"license": "MIT",
 	"author": "Nodecraft Inc.",
