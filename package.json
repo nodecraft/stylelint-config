@@ -1,6 +1,6 @@
 {
 	"name": "@nodecraft/stylelint-config",
-	"version": "3.0.0",
+	"version": "3.0.1",
 	"description": "Nodecraft base Stylelint config",
 	"keywords": [
 		"stylelint",
@@ -45,8 +45,8 @@
 	},
 	"peerDependencies": {
 		"@stylistic/stylelint-plugin": "^2.0.0",
-		"stylelint": "^16.0.2",
-		"stylelint-config-standard": "^35.0.0"
+		"stylelint": "^16.1.0",
+		"stylelint-config-standard": "^36.0.0"
 	},
 	"engines": {
 		"node": ">= 18"
