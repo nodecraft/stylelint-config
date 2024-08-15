@@ -1,7 +1,7 @@
 {
 	"extends": [
 		"@nodecraft/eslint-config/typescript",
-		"plugin:vitest/recommended"
+		"plugin:vitest/legacy-recommended"
 	],
 	"parserOptions": {
 		"parser": "@typescript-eslint/parser",

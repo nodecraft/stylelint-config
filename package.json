@@ -1,6 +1,6 @@
 {
 	"name": "@nodecraft/stylelint-config",
-	"version": "3.0.1",
+	"version": "4.0.0",
 	"description": "Nodecraft base Stylelint config",
 	"keywords": [
 		"stylelint",
@@ -29,26 +29,26 @@
 		"test": "vitest run"
 	},
 	"devDependencies": {
-		"@nodecraft/eslint-config": "^31.0.1",
-		"@stylistic/stylelint-plugin": "^2.0.0",
-		"@types/node": "^20.10.5",
-		"@typescript-eslint/eslint-plugin": "^6.16.0",
-		"@typescript-eslint/parser": "^6.16.0",
-		"eslint": "^8.56.0",
-		"eslint-plugin-json": "^3.1.0",
+		"@nodecraft/eslint-config": "^43.0.1",
+		"@stylistic/stylelint-plugin": "^3.0.0",
+		"@types/node": "^20.14.15",
+		"@typescript-eslint/eslint-plugin": "^8.1.0",
+		"@typescript-eslint/parser": "^8.1.0",
+		"eslint": "^8.57.0",
+		"eslint-plugin-json": "^4.0.1",
 		"eslint-plugin-node": "^11.1.0",
-		"eslint-plugin-unicorn": "^49.0.0",
-		"eslint-plugin-vitest": "^0.3.20",
-		"stylelint": "^16.1.0",
-		"stylelint-config-standard": "^36.0.0",
-		"vitest": "^1.1.0"
+		"eslint-plugin-unicorn": "^55.0.0",
+		"eslint-plugin-vitest": "^0.5.4",
+		"stylelint": "^16.8.2",
+		"stylelint-config-standard": "^36.0.1",
+		"vitest": "^2.0.5"
 	},
 	"peerDependencies": {
-		"@stylistic/stylelint-plugin": "^2.0.0",
-		"stylelint": "^16.1.0",
-		"stylelint-config-standard": "^36.0.0"
+		"@stylistic/stylelint-plugin": "^3.0.0",
+		"stylelint": "^16.8.2",
+		"stylelint-config-standard": "^36.0.1"
 	},
 	"engines": {
-		"node": ">= 18"
+		"node": ">= 20"
 	}
 }
