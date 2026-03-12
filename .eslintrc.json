@@ -1,9 +1,0 @@
-{
-	"root": true,
-	"extends": [
-		"@nodecraft/eslint-config/typescript"
-	],
-	"parserOptions": {
-		"sourceType": "module"
-	}
-}
