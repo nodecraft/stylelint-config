@@ -1,5 +1,5 @@
 # @nodecraft/stylelint-config
-[![Actions Status](https://github.com/nodecraft/stylelint-config/workflows/Test/badge.svg)](https://github.com/nodecraft/stylelint-config/actions)
+[![CI](https://github.com/nodecraft/stylelint-config/actions/workflows/ci.yml/badge.svg)](https://github.com/nodecraft/stylelint-config/actions/workflows/ci.yml)
 
 ## Usage
 
